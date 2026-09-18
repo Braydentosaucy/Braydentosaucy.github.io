@@ -21,7 +21,7 @@ $(function () {
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "rgb(118, 0, 233)"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
-
+ createPlatform()
     //////////////////////////////////
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
@@ -54,8 +54,8 @@ createCollectable("diamond", 200, 170, 0.5, 0.7);
     
     // TODO 4 - Create Cannons
     createCannon("top", 200, 800);
-createCannon("right", 300, 400);
-createCannon("right", 310, 400);
+createCannon("right", 300, 850);
+createCannon("right", 310, 850);
 createCannon("right", 805, 3000);
     
     
